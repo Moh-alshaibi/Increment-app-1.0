@@ -4,7 +4,7 @@ let count = 0;
 
 document.getElementById('incrementCount')
 .addEventListener('click', function(){
-    count++;
+    count++
     document.getElementById('totalCount').innerHTML = count
 });
 
@@ -18,4 +18,4 @@ document.getElementById('resetCount')
 .addEventListener('click' , function(){
     count = 0
     document.getElementById('totalCount').innerHTML = count
-})
+});
